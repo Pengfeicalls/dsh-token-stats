@@ -1,0 +1,5 @@
+# dsh-token-stats bundle patch
+# 插入 host 组合行；client bundle 由 dsh.client manifest 自动扫描加载。
+- insert:
+    - id: dsh-token-stats
+      name: 'dsh-token-stats'
